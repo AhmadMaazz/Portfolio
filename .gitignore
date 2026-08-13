@@ -9,3 +9,6 @@ desktop.ini
 
 # Node (in case any tooling is added later)
 node_modules/
+
+# Claude Code local settings
+.claude/

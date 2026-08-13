@@ -5,6 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ahmad Maaz — AI Engineer / AI Researcher</title>
 <meta name="description" content="Portfolio of Ahmad Maaz — AI Engineer & Researcher, MSc HCI candidate at University of Siegen. Generative AI, RAG systems, computer vision.">
+
+<!-- Social share preview (Open Graph + Twitter Card) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ahmad Maaz">
+<meta property="og:title" content="Ahmad Maaz — AI Engineer / AI Researcher">
+<meta property="og:description" content="Portfolio of Ahmad Maaz — AI Engineer & Researcher, MSc HCI candidate at University of Siegen. Generative AI, RAG systems, computer vision.">
+<meta property="og:url" content="https://ahmadmaaz.netlify.app/">
+<meta property="og:image" content="https://ahmadmaaz.netlify.app/assets/photo.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ahmad Maaz — AI Engineer / AI Researcher">
+<meta name="twitter:description" content="Portfolio of Ahmad Maaz — AI Engineer & Researcher, MSc HCI candidate at University of Siegen. Generative AI, RAG systems, computer vision.">
+<meta name="twitter:image" content="https://ahmadmaaz.netlify.app/assets/photo.jpg">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -26,10 +39,11 @@
       <a href="#publications" class="nav-link">Publications</a>
       <a href="#skills" class="nav-link">Skills</a>
       <a href="#awards" class="nav-link">Awards</a>
+      <a href="#testimonials" class="nav-link">Testimonials</a>
       <a href="#contact" class="nav-link">Contact</a>
     </nav>
     <a href="#contact" class="btn btn-small nav-cta">Get in touch</a>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <button type="button" class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -84,26 +98,41 @@
   <!-- ABOUT -->
   <section class="section" id="about">
     <div class="section-inner">
-      <p class="section-label reveal">01 · About</p>
-      <h2 class="section-title reveal">A quick introduction</h2>
       <div class="about-grid">
-        <p class="about-text reveal">
-          I'm an AI engineer and researcher currently pursuing an <strong>MSc in Human-Computer Interaction</strong>
-          at the University of Siegen, Germany. My background spans generative AI research, retrieval-augmented
-          generation (RAG) systems, computer vision, and hands-on technical support for AI-powered hardware in
-          production. I've built intelligent tutoring agents, multi-agent self-correcting pipelines, and
-          RAG-based legal assistants — and co-authored three peer-reviewed papers along the way.
-          <br><br>
-          I care about systems that are technically rigorous <em>and</em> genuinely usable — which is what
-          drew me toward HCI after a bachelor's in Artificial Intelligence. Outside of research and engineering,
-          I've led student tech communities and mentored teams through hackathons and workshops.
-        </p>
+        <div class="about-left">
+          <p class="section-label reveal">01 · About</p>
+          <h2 class="section-title reveal">A quick introduction</h2>
+          <p class="about-text reveal">
+            I'm an AI engineer and researcher currently pursuing an <strong>MSc in Human-Computer Interaction</strong>
+            at the University of Siegen, Germany. My background spans generative AI research, retrieval-augmented
+            generation (RAG) systems, computer vision, and hands-on technical support for AI-powered hardware in
+            production. I've built intelligent tutoring agents, multi-agent self-correcting pipelines, and
+            RAG-based legal assistants — and co-authored three peer-reviewed papers along the way.
+            <br><br>
+            I care about systems that are technically rigorous and genuinely usable — which is what
+            drew me toward HCI after a bachelor's in Artificial Intelligence. Outside of research and engineering,
+            I've led student tech communities and mentored teams through hackathons and workshops.
+          </p>
+        </div>
         <div class="quick-facts reveal">
-          <div class="fact-chip"><span class="fact-icon">📍</span> Siegen, Germany</div>
-          <div class="fact-chip"><span class="fact-icon">🎓</span> MSc HCI, Uni Siegen (2026–2028)</div>
-          <div class="fact-chip"><span class="fact-icon">🎓</span> BS AI, GIK Institute (3.47/4)</div>
-          <div class="fact-chip"><span class="fact-icon">📄</span> 3 peer-reviewed publications</div>
-          <div class="fact-chip"><span class="fact-icon">🏆</span> MITACS GRI Fellow, 2025</div>
+          <div class="fact-item">
+            <span class="fact-label">Location</span>
+            <span class="fact-value">Siegen, Germany</span>
+          </div>
+          <div class="fact-item">
+            <span class="fact-label">Education</span>
+            <span class="fact-value">MSc HCI · University of Siegen (2026–2028)</span>
+            <span class="fact-value fact-value-sub">BS AI · GIK Institute (CGPA 3.47/4)</span>
+          </div>
+          <div class="fact-item">
+            <span class="fact-label">Publications</span>
+            <span class="fact-value">3 peer-reviewed papers</span>
+          </div>
+          <div class="fact-item">
+            <span class="fact-label">Fellowship</span>
+            <span class="fact-value">MITACS Globalink Research Fellow</span>
+            <span class="fact-value fact-value-sub">Fully-funded international research award (2025)</span>
+          </div>
         </div>
       </div>
     </div>
@@ -224,11 +253,31 @@
           <p class="edu-year">2026 – 2028</p>
           <h3>MSc in Human-Computer Interaction</h3>
           <p class="edu-school">University of Siegen, Germany</p>
+          <p class="edu-courses-label">Planned coursework</p>
+          <div class="tag-list">
+            <span class="tag">Human-Computer Interaction</span>
+            <span class="tag">Analysis &amp; Evaluation</span>
+            <span class="tag">User Experience Design</span>
+            <span class="tag">Psychology</span>
+            <span class="tag">Ubiquitous Computing</span>
+            <span class="tag">Usable Security</span>
+          </div>
         </div>
         <div class="edu-card reveal">
           <p class="edu-year">2021 – 2025</p>
           <h3>BS in Artificial Intelligence</h3>
           <p class="edu-school">GIK Institute, Pakistan · CGPA 3.47 / 4.0</p>
+          <p class="edu-courses-label">Core coursework</p>
+          <div class="tag-list">
+            <span class="tag">Machine Learning</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">Natural Language Processing</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Data Engineering</span>
+            <span class="tag">Data Science</span>
+            <span class="tag">Cyber Security</span>
+            <span class="tag">Algorithms</span>
+          </div>
         </div>
       </div>
     </div>
@@ -242,9 +291,6 @@
       <div class="projects-grid">
 
         <article class="project-card reveal">
-          <div class="project-card-top">
-            <span class="project-icon">🧠</span>
-          </div>
           <h3>Siamese Neural Network for Facial Verification</h3>
           <p>One-shot face verification in TensorFlow, trained on anchor-positive-negative triplets. Published
              research on hyperparameter optimization improved accuracy by 12% in low-data scenarios, with
@@ -258,9 +304,6 @@
         </article>
 
         <article class="project-card reveal">
-          <div class="project-card-top">
-            <span class="project-icon">🦾</span>
-          </div>
           <h3>S.A.R.A — Surgical Assistant Robotic Arm</h3>
           <p>Bachelor's final year project. Trained a YOLOv8 model to detect and classify surgical tools on
              ~5,000 annotated images, and contributed to a voice-command pipeline (Whisper + FLAN-T5) that
@@ -274,9 +317,45 @@
         </article>
 
         <article class="project-card reveal">
-          <div class="project-card-top">
-            <span class="project-icon">🏥</span>
+          <h3>Diagnosing Diabetic Retinopathy Using Deep Learning</h3>
+          <p>Transfer-learning study for early detection of diabetic retinopathy from retinal images, benchmarking
+             five CNN architectures (VGG16, ResNet50, InceptionV3, MobileNetV2, and EfficientNetB0) on a
+             custom-curated dataset spanning multiple severity levels.</p>
+          <div class="tag-list">
+            <span class="tag">Transfer Learning</span>
+            <span class="tag">CNNs</span>
+            <span class="tag">Medical Imaging</span>
           </div>
+          <a href="https://github.com/AhmadMaazz/Diagnosing-Diabetic-Retinopathy-Using-Deep-Learning" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>Predicting Airline Passenger Satisfaction</h3>
+          <p>Extensive comparative study predicting passenger satisfaction from in-flight service data, benchmarking
+             eight+ algorithms (Random Forest, XGBoost, LightGBM, SVM, Neural Networks, k-NN) with RFE/PCA-based
+             feature selection and evaluation across accuracy, F1, and AUC-ROC.</p>
+          <div class="tag-list">
+            <span class="tag">XGBoost</span>
+            <span class="tag">LightGBM</span>
+            <span class="tag">Feature Selection</span>
+          </div>
+          <a href="https://github.com/AhmadMaazz/Extensive-Research-on-Predicting-Airline-Passenger-Satisfaction" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>Fashion-MNIST GAN</h3>
+          <p>Built a custom Generative Adversarial Network from scratch in TensorFlow/Keras to synthesize realistic
+             clothing images from the Fashion-MNIST dataset, implementing the full adversarial training loop with a
+             convolutional generator/discriminator pair and tuning the balance between them to stabilize training.</p>
+          <div class="tag-list">
+            <span class="tag">GANs</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">Generative Models</span>
+          </div>
+          <a href="https://github.com/AhmadMaazz/Generating-Fashion-MNIST-Images-Using-a-Custom-Made-GAN" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+        </article>
+
+        <article class="project-card reveal">
           <h3>E-Hospital — Multi-Role Healthcare Coordination App</h3>
           <p>Freelance project. Designed and built the complete UI/UX solo — 50+ screens across Doctor, Nurse,
              and Patient roles, each with its own sign-in flow and permission-scoped interface, including a
@@ -299,29 +378,73 @@
       <h2 class="section-title reveal">Research &amp; publications</h2>
       <div class="pub-list">
 
-        <div class="pub-item reveal">
-          <div class="pub-main">
+        <article class="pub-card reveal">
+          <div class="pub-index">01</div>
+          <div class="pub-body">
             <h3>VGG Models in Image Captioning: Which Architecture Delivers Better Descriptions?</h3>
-            <p>ICOSST'24 · First Author · 2025</p>
+            <p class="pub-meta">Maaz, A. · Abbas, S. · Ali, R.H. · Ahmed, I. · Khan, T.A. · First &amp; Corresponding Author · ICOSST'24, Lahore, Pakistan · 2025</p>
+            <p class="pub-abstract">Compared VGG16 and VGG19 backbones in a custom encoder-decoder architecture for image
+              captioning on the Flickr8k dataset, training each for 30 and 50 epochs to isolate how training
+              duration affects caption quality. BLEU-1 through BLEU-4 scores came out comparable across both
+              architectures, with VGG16 offering slightly faster training and inference at no real cost to
+              caption quality.</p>
+            <div class="pub-stats">
+              <span class="pub-stat"><strong>0.541</strong> BLEU-1 (VGG16)</span>
+              <span class="pub-stat"><strong>0.533</strong> BLEU-1 (VGG19)</span>
+            </div>
+            <div class="tag-list">
+              <span class="tag">Image Captioning</span>
+              <span class="tag">VGG16 / VGG19</span>
+              <span class="tag">Encoder-Decoder</span>
+            </div>
           </div>
-          <a href="https://doi.org/10.1109/ICOSST64562.2024.10871137" target="_blank" rel="noopener" class="pub-link">IEEE Xplore →</a>
-        </div>
+          <a href="https://doi.org/10.1109/ICOSST64562.2024.10871137" target="_blank" rel="noopener" class="pub-link">Read on IEEE Xplore →</a>
+        </article>
 
-        <div class="pub-item reveal">
-          <div class="pub-main">
+        <article class="pub-card reveal">
+          <div class="pub-index">02</div>
+          <div class="pub-body">
             <h3>Influencing Factors in Facial Recognition and Verification: A Siamese Neural Network Hyperparameter Study</h3>
-            <p>ICECT'24 · First Author · 2024</p>
+            <p class="pub-meta">Maaz, A. · Arshad, U. · Ahmad, T. · Abbas, S. · First Author · ICECT'24, Islamabad, Pakistan · 2024</p>
+            <p class="pub-abstract">Studied how optimizer choice, loss function, and dataset diversity affect Siamese
+              network accuracy on a facial verification task combining the LFW dataset with a custom-collected
+              negative set. The Adam optimizer paired with Binary Cross-Entropy loss delivered the strongest
+              results, while switching to SGD, Triplet Loss, Contrastive Loss, or adding dropout layers gave no
+              meaningful improvement.</p>
+            <div class="pub-stats">
+              <span class="pub-stat"><strong>99.8%</strong> Recall (Adam)</span>
+              <span class="pub-stat"><strong>99.7%</strong> Precision (Adam)</span>
+            </div>
+            <div class="tag-list">
+              <span class="tag">Siamese Networks</span>
+              <span class="tag">Hyperparameter Tuning</span>
+              <span class="tag">Facial Verification</span>
+            </div>
           </div>
-          <a href="https://doi.org/10.1109/ICECT61618.2024.10581383" target="_blank" rel="noopener" class="pub-link">IEEE Xplore →</a>
-        </div>
+          <a href="https://doi.org/10.1109/ICECT61618.2024.10581383" target="_blank" rel="noopener" class="pub-link">Read on IEEE Xplore →</a>
+        </article>
 
-        <div class="pub-item reveal">
-          <div class="pub-main">
+        <article class="pub-card reveal">
+          <div class="pub-index">03</div>
+          <div class="pub-body">
             <h3>The YOLOv8 Edge: Harnessing Custom Datasets for Superior Real-Time Detection</h3>
-            <p>ICET'23 · 2023</p>
+            <p class="pub-meta">Ahmed, T. · Maaz, A. · Mahmood, D. · ul Abideen, Z. · Arshad, U. · Ali, R.H. · ICET'23, Peshawar, Pakistan · 2023</p>
+            <p class="pub-abstract">Trained a custom YOLOv8 detector on a purpose-built dataset of four everyday object
+              classes (books, keyboards, glasses, and mice), tuning batch size, learning rate, and input resolution.
+              The model outperformed earlier YOLO versions on accuracy, demonstrating the value of domain-specific
+              training data for robotics, surveillance, and autonomous-vehicle applications.</p>
+            <div class="pub-stats">
+              <span class="pub-stat"><strong>0.864</strong> mAP50</span>
+              <span class="pub-stat"><strong>0.758</strong> mAP50-95</span>
+            </div>
+            <div class="tag-list">
+              <span class="tag">YOLOv8</span>
+              <span class="tag">Real-Time Detection</span>
+              <span class="tag">Custom Datasets</span>
+            </div>
           </div>
-          <a href="https://doi.org/10.1109/ICET59753.2023.10374650" target="_blank" rel="noopener" class="pub-link">IEEE Xplore →</a>
-        </div>
+          <a href="https://doi.org/10.1109/ICET59753.2023.10374650" target="_blank" rel="noopener" class="pub-link">Read on IEEE Xplore →</a>
+        </article>
 
       </div>
     </div>
@@ -332,28 +455,11 @@
     <div class="section-inner">
       <p class="section-label reveal">06 · Skills</p>
       <h2 class="section-title reveal">Technical expertise</h2>
-      <div class="skills-grid">
+      <div class="skills-mosaic">
 
-        <div class="skill-group reveal">
-          <h3>Languages</h3>
-          <div class="tag-list">
-            <span class="tag">C</span><span class="tag">C++</span><span class="tag">Python</span>
-            <span class="tag">Dart</span><span class="tag">SQL</span>
-          </div>
-        </div>
-
-        <div class="skill-group reveal">
-          <h3>ML / AI Libraries</h3>
-          <div class="tag-list">
-            <span class="tag">NumPy</span><span class="tag">Pandas</span><span class="tag">OpenCV</span>
-            <span class="tag">Scikit-learn</span><span class="tag">SciPy</span><span class="tag">Pillow</span>
-            <span class="tag">Matplotlib</span><span class="tag">PyTorch</span><span class="tag">TensorFlow</span>
-            <span class="tag">Keras</span><span class="tag">Hugging Face</span>
-          </div>
-        </div>
-
-        <div class="skill-group reveal">
+        <div class="skill-tile tile-genai reveal">
           <h3>GenAI &amp; LLMs</h3>
+          <p class="skill-count">12 tools</p>
           <div class="tag-list">
             <span class="tag">LLMs</span><span class="tag">ChatGPT API</span><span class="tag">RAG</span>
             <span class="tag">Prompt Engineering</span><span class="tag">LoRA / PEFT</span>
@@ -363,20 +469,42 @@
           </div>
         </div>
 
-        <div class="skill-group reveal">
-          <h3>Web &amp; App Dev</h3>
+        <div class="skill-tile tile-lang reveal">
+          <h3>Languages</h3>
+          <p class="skill-count">5 languages</p>
           <div class="tag-list">
-            <span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">React.js</span>
-            <span class="tag">REST APIs</span>
+            <span class="tag">C</span><span class="tag">C++</span><span class="tag">Python</span>
+            <span class="tag">Dart</span><span class="tag">SQL</span>
           </div>
         </div>
 
-        <div class="skill-group reveal">
+        <div class="skill-tile tile-ml reveal">
+          <h3>ML / AI Libraries</h3>
+          <p class="skill-count">11 tools</p>
+          <div class="tag-list">
+            <span class="tag">NumPy</span><span class="tag">Pandas</span><span class="tag">OpenCV</span>
+            <span class="tag">Scikit-learn</span><span class="tag">SciPy</span><span class="tag">Pillow</span>
+            <span class="tag">Matplotlib</span><span class="tag">PyTorch</span><span class="tag">TensorFlow</span>
+            <span class="tag">Keras</span><span class="tag">Hugging Face</span>
+          </div>
+        </div>
+
+        <div class="skill-tile tile-tools reveal">
           <h3>Tools &amp; Infra</h3>
+          <p class="skill-count">7 tools</p>
           <div class="tag-list">
             <span class="tag">Docker</span><span class="tag">OpenStack</span><span class="tag">n8n</span>
             <span class="tag">CI/CD</span><span class="tag">Linux</span><span class="tag">Claude Code</span>
             <span class="tag">Jupyter</span>
+          </div>
+        </div>
+
+        <div class="skill-tile tile-web reveal">
+          <h3>Web &amp; App Dev</h3>
+          <p class="skill-count">4 tools</p>
+          <div class="tag-list">
+            <span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">React.js</span>
+            <span class="tag">REST APIs</span>
           </div>
         </div>
 
@@ -413,30 +541,122 @@
     </div>
   </section>
 
-  <!-- RECOMMENDATIONS (placeholder) -->
-  <section class="section section-alt" id="recommendations">
+  <!-- TESTIMONIALS -->
+  <section class="section section-alt" id="testimonials">
     <div class="section-inner">
-      <p class="section-label reveal">08 · Recommendations</p>
+      <p class="section-label reveal">08 · Testimonials</p>
       <h2 class="section-title reveal">What people say</h2>
-      <!--
-        PLACEHOLDER SECTION — replace these three cards with real testimonials
-        (e.g. from supervisors, professors, or clients) when you have them.
-        Each card just needs: quote text, name, and role/company.
-      -->
-      <div class="rec-grid">
-        <div class="rec-card reveal">
-          <p class="rec-quote">"Placeholder testimonial — swap this for a real quote from a supervisor, professor, or client."</p>
-          <p class="rec-author">Name — Role, Company <span class="rec-flag">(placeholder)</span></p>
-        </div>
-        <div class="rec-card reveal">
-          <p class="rec-quote">"Placeholder testimonial — swap this for a real quote from a supervisor, professor, or client."</p>
-          <p class="rec-author">Name — Role, Company <span class="rec-flag">(placeholder)</span></p>
-        </div>
-        <div class="rec-card reveal">
-          <p class="rec-quote">"Placeholder testimonial — swap this for a real quote from a supervisor, professor, or client."</p>
-          <p class="rec-author">Name — Role, Company <span class="rec-flag">(placeholder)</span></p>
-        </div>
+
+      <div class="testimonial-viewport reveal">
+      <div class="testimonial-stack" id="testimonialStack">
+
+        <article class="testimonial-card">
+          <div class="testimonial-body">
+            <span class="testimonial-mark">&ldquo;</span>
+          <p class="testimonial-text">Ahmad has distinguished himself as one of the top students in my classes,
+            consistently ranking among the top 5% of his peers. Beyond academics, he has shown remarkable
+            initiative in research — from diabetic retinopathy diagnosis to real-time object detection to
+            retrieval-augmented generation — approaching every challenge with critical thinking, creativity,
+            and determination.</p>
+          </div>
+          <div class="testimonial-footer">
+            <div class="testimonial-avatar">RA</div>
+            <div>
+              <p class="testimonial-name">Dr. Raja Hashim Ali</p>
+              <p class="testimonial-role">Assistant Professor, FCSE · GIK Institute</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-body">
+            <span class="testimonial-mark">&ldquo;</span>
+          <p class="testimonial-text">Ahmad approached the complex task of OpenStack implementation with
+            enthusiasm and determination, quickly mastering the platform and efficiently configuring the
+            environment. His troubleshooting ability, proactive communication, and collaborative spirit
+            significantly contributed to the project's success. I'd highly recommend him for any role requiring
+            technical expertise and a strong commitment to excellence.</p>
+          </div>
+          <div class="testimonial-footer">
+            <div class="testimonial-avatar">HS</div>
+            <div>
+              <p class="testimonial-name">Haseeb Khalid Sheikh</p>
+              <p class="testimonial-role">LinkedIn Recommendation · Direct Manager, PTCL &amp; Ufone4G</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-body">
+            <span class="testimonial-mark">&ldquo;</span>
+          <p class="testimonial-text">This was my first time working with Ahmad and I found him very
+            professional, helpful, and efficient. He delivered exactly what I wanted within the desired
+            deadline — kept me updated throughout and asked for my feedback. I would definitely be taking his
+            services again and would recommend him 100%.</p>
+          </div>
+          <div class="testimonial-footer">
+            <div class="testimonial-avatar">EZ</div>
+            <div>
+              <p class="testimonial-name">ezazaheer433</p>
+              <p class="testimonial-role">Fiverr Client · ★★★★★</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-body">
+            <span class="testimonial-mark">&ldquo;</span>
+          <p class="testimonial-text">Ahmad consistently exhibited strong academic performance and an
+            impressive passion for AI and NLP. His research on image captioning — entirely self-driven —
+            showcased a strong grasp of convolutional neural networks and LSTMs. His curiosity, work ethic, and
+            collaboration skills make him an ideal candidate for any advanced research role.</p>
+          </div>
+          <div class="testimonial-footer">
+            <div class="testimonial-avatar">MM</div>
+            <div>
+              <p class="testimonial-name">Dr. Musadaq Mansoor</p>
+              <p class="testimonial-role">Assistant Professor, FCSE · GIK Institute</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-body">
+            <span class="testimonial-mark">&ldquo;</span>
+          <p class="testimonial-text">As advisor for his final year project, I closely observed Ahmad's
+            dedication, creativity, and problem-solving abilities — from integrating voice recognition to
+            implementing kinematic algorithms to building a reliable computer vision system for surgical tool
+            detection. He consistently approaches challenges with a structured, analytical mindset and strong
+            leadership.</p>
+          </div>
+          <div class="testimonial-footer">
+            <div class="testimonial-avatar">SA</div>
+            <div>
+              <p class="testimonial-name">Shahabuddin Ansari</p>
+              <p class="testimonial-role">Assistant Professor, FCSE · S.A.R.A Project Advisor, GIK Institute</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-body">
+            <span class="testimonial-mark">&ldquo;</span>
+          <p class="testimonial-text">Ahmad is just great at what he's doing — he did it the perfect way. I
+            would recommend his service.</p>
+          </div>
+          <div class="testimonial-footer">
+            <div class="testimonial-avatar">ZI</div>
+            <div>
+              <p class="testimonial-name">zi21theunknown</p>
+              <p class="testimonial-role">Fiverr Client · ★★★★★</p>
+            </div>
+          </div>
+        </article>
+
       </div>
+      </div>
+
+      <div class="testimonial-dots" id="testimonialDots"></div>
     </div>
   </section>
 
@@ -457,18 +677,6 @@
         <a href="tel:+4915123495522" class="contact-item">
           <span class="contact-label">Phone</span>
           <span class="contact-value">+49 1512 3495522</span>
-        </a>
-        <a href="https://www.linkedin.com/in/ahmad-maaz-084271231/" target="_blank" rel="noopener" class="contact-item">
-          <span class="contact-label">LinkedIn</span>
-          <span class="contact-value">Ahmad Maaz</span>
-        </a>
-        <a href="https://github.com/AhmadMaazz" target="_blank" rel="noopener" class="contact-item">
-          <span class="contact-label">GitHub</span>
-          <span class="contact-value">AhmadMaazz</span>
-        </a>
-        <a href="https://scholar.google.com/citations?user=iGDc5wsAAAAJ" target="_blank" rel="noopener" class="contact-item">
-          <span class="contact-label">Google Scholar</span>
-          <span class="contact-value">Ahmad Maaz</span>
         </a>
         <div class="contact-item contact-item-static">
           <span class="contact-label">Location</span>
