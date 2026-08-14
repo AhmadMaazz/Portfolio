@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <text x="32" y="43" text-anchor="middle"
+        font-family="ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace"
+        font-size="32" font-weight="800">
+    <tspan fill="#e7edf4">AM</tspan><tspan fill="#38bdf8">.</tspan>
+  </text>
+</svg>
